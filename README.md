@@ -10,10 +10,18 @@
 This project runs **chunked policy inference** in a background thread while the
 main thread keeps sending robot commands at a steady control rate.
 
-It is useful for policies such as **ACT**, where one model forward pass predicts
+It is useful for policies such as **IL**, **VLA** or **WAM**, where one model forward pass predicts
 a whole chunk of future actions.
 
 <br/>
+
+## 🎥 Real-World Demonstrations
+
+Below are the deployment results on real-world robotic manipulation tasks. The left example shows inference without Async Temporal Aggregation, while the right example shows inference with Async Temporal Aggregation.
+
+<div align="center"> <img src="https://raw.githubusercontent.com/HenryLiukkk/vla-adapter-real-video/master/inference.gif" width="48%"> <img src="https://raw.githubusercontent.com/HenryLiukkk/vla-adapter-real-video/master/asac_inference.gif" width="48%"> </div>
+
+<div align="center"> <sub><b>Left:</b> Without Async Temporal Aggregation &nbsp;&nbsp;&nbsp;&nbsp; <b>Right:</b> With Async Temporal Aggregation</sub> </div> <br/>
 
 ## 💡 Why does this exist?
 
