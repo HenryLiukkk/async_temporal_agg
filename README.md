@@ -19,9 +19,21 @@ a whole chunk of future actions.
 
 Below are the deployment results on real-world robotic manipulation tasks. The left example shows inference without Async Temporal Aggregation, while the right example shows inference with Async Temporal Aggregation.
 
-<div align="center"> <img src="https://raw.githubusercontent.com/HenryLiukkk/vla-adapter-real-video/master/inference.gif" width="48%"> <img src="https://raw.githubusercontent.com/HenryLiukkk/vla-adapter-real-video/master/asac_inference.gif" width="48%"> </div>
-
-<div align="center"> <sub><b>Left:</b> Without Async Temporal Aggregation &nbsp;&nbsp;&nbsp;&nbsp; <b>Right:</b> With Async Temporal Aggregation</sub> </div> <br/>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/HenryLiukkk/vla-adapter-real-video/master/inference.gif" width="100%">
+      <br/>
+      <sub><b>Without Async Temporal Aggregation</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/HenryLiukkk/vla-adapter-real-video/master/asac_inference.gif" width="100%">
+      <br/>
+      <sub><b>With Async Temporal Aggregation</b></sub>
+    </td>
+  </tr>
+</table>
+<br/>
 
 ## 💡 Why does this exist?
 
